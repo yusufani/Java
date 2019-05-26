@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Auto Park System Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/.idea/artifacts/AutoPark_System_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/.idea/artifacts/unnamed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/AnimateFX-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/AutoPark System.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/NYP-proje-01-v10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/fontawesomefx-8.9 (1).jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/iconfinder-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/jfoenix-8.0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/junit.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/artifacts/AutoPark_System_jar/AutoPark System.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/artifacts/unnamed/unnamed.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/ControllerForAddSubcriber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/ControllerForAutoParkAttributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/ControllerForIsParked.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/ControllerForLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/ControllerForSearchVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/ControllerForSetCurrentTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/ControllerForSplashScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/ControllerForSubscribedTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/ControllerForVehicleEnters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/ControllerForVehicleExits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/728934-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/CurrentTime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/Exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/HourlyFee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/IncomeDaily.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/ReverseArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/carReverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/enter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/garage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Images/race.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/addSubscriber.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/currentTime.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/isParked.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/loginWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/mainWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/searchVehicle.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/setAttributesAutopark.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/splashScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/splashScreen2.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/subscribedWindows.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/vehicleEnters.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/GUI/vehicleExits.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/AutoPark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/Date.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/OfficialVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/ParkRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/RegularVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/SubscribedVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/Subscription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/Test/TestAutopark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/Test/TestDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/Test/TestParkRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/Test/TestSubscription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/Test/TestTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/out/production/AutoPark System/Otopark/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/ControllerForAddSubcriber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/ControllerForAutoParkAttributes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/ControllerForIsParked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/ControllerForLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/ControllerForSearchVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/ControllerForSetCurrentTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/ControllerForSplashScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/ControllerForSubscribedTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/ControllerForVehicleEnters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/ControllerForVehicleExits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/728934-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/CurrentTime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/Exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/HourlyFee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/IncomeDaily.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/ReverseArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/carReverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/enter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/garage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Images/race.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/addSubscriber.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/currentTime.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/isParked.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/loginWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/mainWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/searchVehicle.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/setAttributesAutopark.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/splashScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/splashScreen2.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/subscribedWindows.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/vehicleEnters.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/GUI/vehicleExits.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/AutoPark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/Date.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/OfficialVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/ParkRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/RegularVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/SubscribedVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/Subscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/Test/TestAutopark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/Test/TestDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/Test/TestParkRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/Test/TestSubscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/Test/TestTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/Time.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System - Kopya/src/Otopark/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/build.fxbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/ControllerForAddSubcriber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/ControllerForAutoParkAttributes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/ControllerForIsParked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/ControllerForLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/ControllerForSearchVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/ControllerForSetCurrentTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/ControllerForSplashScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/ControllerForSubscribedTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/ControllerForVehicleEnters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/ControllerForVehicleExits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/728934-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/CurrentTime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/Exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/HourlyFee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/IncomeDaily.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/ReverseArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/carReverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/enter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/garage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Images/race.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/addSubscriber.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/currentTime.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/isParked.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/loginWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/mainWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/searchVehicle.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/setAttributesAutopark.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/splashScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/splashScreen2.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/subscribedWindows.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/vehicleEnters.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/GUI/vehicleExits.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/AutoPark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/Date.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/OfficialVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/ParkRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/RegularVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/SubscribedVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/Subscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/Test/TestAutopark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/Test/TestDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/Test/TestParkRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/Test/TestSubscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/Test/TestTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/Time.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System For Yusuf Ani/src/Otopark/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/.idea/artifacts/AutoPark_System_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/.idea/artifacts/unnamed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoPark System/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/AutoPark System.eml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/AutoPark System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoPark System/AutoPark System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/AutoPark System.userlibraries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/iconfinder-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/junit.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/out/artifacts/AutoPark_System_jar/AutoPark System.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/out/artifacts/unnamed/unnamed.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/out/production/AutoPark System/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/out/production/AutoPark System/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoPark System/src/Otopark/Test/TestAutopark.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoPark System/src/Otopark/Test/TestAutopark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/build.fxbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/Backend/Ders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/Backend/NotBaremi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/Backend/Ogrenci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/application/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/application/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/sample/ControllerForIsParked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/sample/ControllerForLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/sample/ControllerForSplashScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/sample/isParked.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/sample/loginScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/sample/mainWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNot/src/sample/splashScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNotHesaplama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DersNotHesaplama/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNotHesaplama/out/production/DersNotHesaplama/sample/ControllerForIsParked.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DersNotHesaplama/out/production/DersNotHesaplama/sample/ControllerForIsParked.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DersNotHesaplama/src/sample/ControllerForIsParked.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DersNotHesaplama/src/sample/ControllerForIsParked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/AnimateFX-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/ControllerForAddSubcriber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/ControllerForAutoParkAttributes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/ControllerForIsParked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/ControllerForLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/ControllerForSearchVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/ControllerForSetCurrentTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/ControllerForSplashScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/ControllerForSubscribedTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/ControllerForVehicleEnters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/ControllerForVehicleExits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/728934-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/CurrentTime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/Exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/HourlyFee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/IncomeDaily.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/ReverseArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/carReverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/enter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/garage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Images/race.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/addSubscriber.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/currentTime.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/isParked.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/loginWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/mainWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/searchVehicle.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/setAttributesAutopark.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/splashScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/subscribedWindows.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/vehicleEnters.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/GUI/vehicleExits.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/AutoPark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/Date.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/OfficialVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/ParkRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/RegularVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/SubscribedVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/Subscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/Test/TestAutopark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/Test/TestDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/Test/TestParkRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/Test/TestSubscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/Test/TestTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/Time.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/Otopark/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/fontawesomefx-8.9 (1).jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/jfoenix-8.0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/16011033/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/build.fxbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/ControllerForAddSubcriber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/ControllerForAutoParkAttributes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/ControllerForIsParked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/ControllerForLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/ControllerForSearchVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/ControllerForSetCurrentTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/ControllerForSplashScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/ControllerForSubscribedTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/ControllerForVehicleEnters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/ControllerForVehicleExits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/728934-256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/CurrentTime.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/Exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/HourlyFee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/IncomeDaily.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/ReverseArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/carReverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/enter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/garage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Images/race.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/addSubscriber.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/currentTime.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/isParked.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/loginWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/mainWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/searchVehicle.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/setAttributesAutopark.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/splashScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/subscribedWindows.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/vehicleEnters.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/GUI/vehicleExits.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/AutoPark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/Date.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/OfficialVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/ParkRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/RegularVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/SubscribedVehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/Subscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/Test/TestAutopark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/Test/TestDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/Test/TestParkRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/Test/TestSubscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/Test/TestTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/Time.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../otopark/src/Otopark/Vehicle.java" beforeDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Otopark/Time.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Otopark/Subscription.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Otopark/RegularVehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GUI/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Auto Park System Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto Park System Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto Park System Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto Park System Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto Park System Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto Park System Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto Park System Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Auto Park System Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Otopark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Auto Park System Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Necessary Libraries/fontawesomefx-8.9 (1).jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.Main" />
+      <module name="Auto Park System Project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="Auto Park System Project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1558800674343" duration="255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1557000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.28080228" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32893" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32893" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Otopark/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Otopark/Subscription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Otopark/RegularVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
