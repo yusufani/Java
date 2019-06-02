@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #0A191E;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerForOrganizasyon">
+   <center>
+      <VBox prefHeight="341.0" prefWidth="601.0" spacing="60.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox spacing="20.0">
+               <children>
+                  <Text fill="#f9d342" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Direktörlük İsmini Giriniz : " wrappingWidth="315.13671875">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#a49764" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Lütfen bağlı olduğunuz direktörlük ismini yazınız" wrappingWidth="571.13671875">
+                     <font>
+                        <Font name="Arial Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <JFXTextField fx:id="direktorlukIsmi" focusColor="#00ff09" maxWidth="400.0" minWidth="100.0" prefHeight="25.0" prefWidth="327.0" promptText="Örnek :  İnsan Kaynakları, Muhasebe, İdari İşler, Finans" unFocusColor="#4a9878" />
+               </children>
+            </VBox>
+            <VBox spacing="20.0">
+               <children>
+                  <Text fill="#f9d342" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Departman Bilgisi Giriniz :" wrappingWidth="315.13671875">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#a49764" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Lütfen bağlı olduğunuz direktörlük içinde birden fazla departman varsa belirtiniz." wrappingWidth="571.13671875">
+                     <font>
+                        <Font name="Arial Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <JFXTextField fx:id="departmanIsmi" focusColor="#00ff09" maxWidth="400.0" minWidth="100.0" prefHeight="25.0" prefWidth="327.0" promptText="Örn. Muhasebe, Finans, İnsan Kaynakları, Marka İletişim, Sosyal Medya " unFocusColor="#4a9878" />
+               </children>
+            </VBox>
+            <VBox spacing="20.0">
+               <children>
+                  <Text fill="#f9d342" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Adınız Soyadınız " wrappingWidth="315.13671875">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <JFXTextField fx:id="kisiIsmi" focusColor="#00ff09" maxWidth="400.0" minWidth="100.0" prefHeight="25.0" prefWidth="327.0" promptText="Örnek : Yusuf Anı" unFocusColor="#4a9878" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+      </VBox>
+   </center>
+   <bottom>
+      <JFXButton onAction="#devam" ripplerFill="#1e1800" style="-fx-background-color: #00ff33; -fx-background-radius: 10;" text="Devam" textFill="#030007" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="600.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </bottom>
+</BorderPane>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #0A191E;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerForSurec">
+   <center>
+      <VBox prefHeight="341.0" prefWidth="601.0" spacing="80.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox spacing="20.0">
+               <children>
+                  <Text fill="#f9d342" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="4. İş Süreci" wrappingWidth="315.13671875">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#a49764" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Buraya ekleyeceğiniz veri işleme faaliyetinin hangi iş süreci kapsamında yapıldığını açıklayınız. " wrappingWidth="571.13671875">
+                     <font>
+                        <Font name="Arial Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <JFXTextField fx:id="isSureci" focusColor="#00ff09" maxWidth="636.0" minWidth="100.0" prefHeight="26.0" prefWidth="390.0" promptText="Örnek :  İnsan Kaynakları, Muhasebe, İdari İşler, Finans" unFocusColor="#4a9878" />
+               </children>
+            </VBox>
+            <VBox spacing="20.0">
+               <children>
+                  <Text fill="#f9d342" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Veri İşleme Faaliyetinin Açıklaması" wrappingWidth="315.13671875">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#a49764" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="İlgili iş süreci kapsamında yapılan faaliyeti açıklayınız. Örneğin işe alım için adaylardan cv toplanması, işe alınacak kişinin işe giriş belgelerinin toplanması, müşterilere anket yapılması ile kişisel verilerinin toplanması, müşterilere cari kayıt açılması." wrappingWidth="571.13671875">
+                     <font>
+                        <Font name="Arial Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <JFXTextField fx:id="veriIslemeFaaliyetininAciklanmasi" focusColor="#00ff09" maxWidth="656.0" minWidth="100.0" prefHeight="26.0" prefWidth="603.0" promptText="Örn : Çalışanların sağlık bilgilerinin toplanması, müşterilerle sözleşme yapılması " unFocusColor="#4a9878" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox prefHeight="32.0" prefWidth="229.0" spacing="100.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" />
+         </BorderPane.margin>
+         <children>
+            <JFXButton onAction="#geri" ripplerFill="#1e1800" style="-fx-background-color: #00ff33; -fx-background-radius: 10;" text="Geri" textFill="#030007">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </JFXButton>
+            <JFXButton onAction="#devam" prefHeight="32.0" prefWidth="59.0" ripplerFill="#1e1800" style="-fx-background-color: #00ff33; -fx-background-radius: 10;" text="Devam" textFill="#030007">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="400.0" right="30.0" />
+               </HBox.margin>
+            </JFXButton>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
