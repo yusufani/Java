@@ -43,6 +43,7 @@ public class ControllerForOrganizasyon implements Initializable {
             Optional<ButtonType> result = alert.showAndWait();
             if(result.get()== no) return;
         }
+        System.out.println(Envanter.getInstance().getOrganizasyon().toString());
         Switch.changeStage("Surec",800,600,kisiIsmi);
 
     }

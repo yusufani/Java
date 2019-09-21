@@ -1,6 +1,7 @@
 package sample;
 
 import Backend.Context.Envanter;
+import com.jfoenix.controls.JFXAlert;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXCheckBox;
 import com.jfoenix.controls.JFXTextField;
@@ -14,10 +15,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
-import javafx.scene.control.CheckBox;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
@@ -28,68 +27,79 @@ import java.util.Stack;
 
 import static sample.Main.stages;
 
-public class ControllerForSurec2 implements Initializable {
+public class ControllerForSurec3 implements Initializable {
+
 
     @FXML
-    private JFXCheckBox calisan;
+    private JFXCheckBox yaziliForm;
 
     @FXML
-    private JFXCheckBox tedarikci;
+    private VBox vboxInternet;
 
     @FXML
-    private JFXCheckBox urun;
+    private JFXCheckBox internetSitesiForm;
 
     @FXML
-    private JFXCheckBox potansiyelUrun;
+    private JFXCheckBox email;
 
     @FXML
-    private JFXCheckBox uye;
+    private JFXCheckBox elektronikVeri;
 
     @FXML
-    private JFXCheckBox denek;
+    private JFXCheckBox DigerElektronik;
 
     @FXML
-    private JFXCheckBox habereKonuOlan;
+    private JFXCheckBox telefon;
 
     @FXML
-    private JFXCheckBox hissedar;
+    private JFXCheckBox sozlu;
 
     @FXML
-    private JFXCheckBox sinav;
+    private JFXCheckBox ucuncEmail;
 
     @FXML
-    private JFXCheckBox stajyer;
+    private JFXCheckBox ucuncuInternet;
 
     @FXML
-    private JFXCheckBox ziyaretci;
+    private JFXCheckBox ucuncuTelefon;
 
     @FXML
-    private JFXCheckBox calisanAdayi;
+    private JFXCheckBox ucuncuSozlu;
+
+    @FXML
+    private VBox vboxUcuncu;
+
+    @FXML
+    private JFXCheckBox ucuncuElektronik;
+
+    @FXML
+    private JFXCheckBox ucuncuAleni;
+
+    @FXML
+    private HBox hBox;
 
     @FXML
     private JFXCheckBox diger;
 
     @FXML
-    private VBox vBox;
-
-    @FXML
-    private JFXTextField gizliText;
+    private JFXButton cikart;
 
     @FXML
     private JFXButton ekle;
 
     @FXML
-    private JFXButton cikart;
+    private VBox vboxElektronik;
 
     @FXML
-    private HBox hBox;
+    private VBox vBox;
 
     ArrayList<JFXTextField> gizliTextler;
-    ArrayList<JFXCheckBox> checkBoxes=new ArrayList<>();
+    ArrayList<JFXCheckBox> buttons  = new  ArrayList<>();
+    ArrayList<VBox> vboxes= new  ArrayList<>();
     @FXML
     void devam(ActionEvent e) {
         secimleriAl();
-        if(Envanter.getInstance().getSurec().getKisiselVerisiIslenenKisi() == null ){
+        if(Envanter.getInstance().getSurec().getKisiselVerininToplanmaYontemi() == null ){
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
             alert.setTitle("Uyarı"); //Alert e başlık verilmesi
             alert.setHeight(100); //Alert in genişlik ve yüksekliğinin belirlenmesi
@@ -103,8 +113,8 @@ public class ControllerForSurec2 implements Initializable {
             if(result.get()== no)return;
         }
         System.out.println(Envanter.getInstance().getSurec().toString());
-        Switch.changeStage("Surec3",900,600,ekle);
-
+        System.out.println("Problem yok ");
+        Switch.changeStage("VerilerinIslenmesi",900,600,ekle);
     }
 
     @FXML
@@ -149,33 +159,68 @@ public class ControllerForSurec2 implements Initializable {
 
     @FXML
     void geri(ActionEvent event) {
-        Switch.changeStage("Surec",800,600,cikart);
+        Switch.changeStage("Surec2",800,600,cikart);
     }
+
     public void secimleriAl(){
         ArrayList<String> secimler =new ArrayList<>();
-        for(JFXCheckBox x : checkBoxes){
+        for(JFXCheckBox x : buttons){
             if(x.isSelected()) secimler.add(x.getText());
         }
         for(int i = 0 ; i< vBox.getChildren().size(); i++){
             secimler.add(((JFXTextField)vBox.getChildren().get(i)).getText());
         }
+        for (VBox x : vboxes){
+            if(((JFXCheckBox) x.getChildren().get(0)).isSelected()){
+                secimler.add(((JFXButton)x.getChildren().get(0)).getText()+((JFXTextField)x.getChildren().get(1)).getText());
+
+            }
+        }
+        Envanter.getInstance().getSurec().setKisiselVerininToplanmaYontemi(secimler.toArray(new String[0]));
         System.out.println(secimler);
-        Envanter.getInstance().getSurec().setKisiselVerisiIslenenKisi(secimler.toArray(new String[0]));
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        checkBoxes.add(calisan);
-        checkBoxes.add(tedarikci);
-        checkBoxes.add(urun);
-        checkBoxes.add(potansiyelUrun);
-        checkBoxes.add(uye);
-        checkBoxes.add(denek);
-        checkBoxes.add(habereKonuOlan);
-        checkBoxes.add(hissedar);
-        checkBoxes.add(sinav);
-        checkBoxes.add(stajyer);
-        checkBoxes.add(ziyaretci);
-        checkBoxes.add(calisanAdayi);
+        buttons.add(email);
+        buttons.add(elektronikVeri);
+        buttons.add(DigerElektronik);
+        buttons.add(telefon);
+        buttons.add(sozlu);
+        buttons.add(ucuncEmail);
+        buttons.add(ucuncuInternet);
+        buttons.add(ucuncuTelefon);
+        buttons.add(ucuncuSozlu);
+        buttons.add(ucuncuAleni);
+        buttons.add(yaziliForm);
+        vboxes.add(vboxInternet);
+        vboxes.add(vboxElektronik);
+        vboxes.add(vboxUcuncu);
+    }
+    @FXML
+    void metinOlustur(ActionEvent event) {
+        createATextField(internetSitesiForm,vboxInternet);
+
+    }
+
+    private void createATextField(JFXCheckBox jfxCheckBox, VBox vbox) {
+        if(jfxCheckBox.isSelected()){
+            JFXTextField jfxTextField = new JFXTextField();
+            jfxTextField.setVisible(true);
+            vbox.getChildren().add(jfxTextField);
+        }
+        else{
+            vbox.getChildren().remove(1);
+        }
+    }
+
+    @FXML
+    void metinOlustur2(ActionEvent event) {
+        createATextField(DigerElektronik,vboxElektronik);
+    }
+
+    @FXML
+    void metinOlustur3(ActionEvent event) {
+            createATextField(ucuncuElektronik,vboxUcuncu);
     }
 }

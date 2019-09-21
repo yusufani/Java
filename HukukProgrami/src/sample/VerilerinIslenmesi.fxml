@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #0A191E;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerForVerilerinIslenmesi">
+   <bottom>
+      <HBox prefHeight="32.0" prefWidth="229.0" spacing="175.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton onAction="#geri" ripplerFill="#1e1800" style="-fx-background-color: #00ff33; -fx-background-radius: 10;" text="Geri" textFill="#030007">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </JFXButton>
+            <JFXButton onAction="#devam" prefHeight="32.0" prefWidth="59.0" ripplerFill="#1e1800" style="-fx-background-color: #00ff33; -fx-background-radius: 10;" text="Devam" textFill="#030007">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="450.0" right="30.0" />
+               </HBox.margin>
+            </JFXButton>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+   <center>
+      <VBox prefHeight="341.0" prefWidth="601.0" spacing="60.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="482.0" prefWidth="740.0" spacing="20.0">
+               <children>
+                  <Text fill="#f9d342" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="9.AMACCCCCCC" wrappingWidth="315.13671875">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Text>
+                  <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                     <content>
+                        <VBox fillWidth="false" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="918.0" prefWidth="741.0" spacing="4.0" style="-fx-background-color: #222831; -fx-background-radius: 0;">
+                           <children>
+                              <Accordion>
+                                <panes>
+                                    <TitledPane fx:id="kimlik" animated="false" text="Kimlik">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox fx:id="c1512" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Ad soyad" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox fx:id="c1522" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text=" Anne - baba adı" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox fx:id="c1532" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Anne kızlık soyadı" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox fx:id="c1542" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Doğum tarihi" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox fx:id="c1552" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Doğum yeri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox fx:id="c1562" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Medeni hali" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox fx:id="c1572" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text=" Nüfus cüzdanı seri sıra no" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox fx:id="c1582" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="TC kimlik no" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                    <TitledPane fx:id="iletisim" animated="false" text="İletisim">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox fx:id="c1543" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Adres no" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox fx:id="c1553" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="E-posta adresi" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox fx:id="c1563" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="İletişim adresi" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox fx:id="c1573" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Kayıtlı elektronik posta adresi (KEP)" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Telefon no" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                    <TitledPane fx:id="lokasyon" animated="false" text="Lokasyon">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Bulunduğu yerin konum bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                    <TitledPane fx:id="ozluk" animated="false" text="Özlük">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Bordro bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Disiplin soruşturması" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="İşe giriş belgesi kayıtları" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Mal bildirimi bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Özgeçmiş bilgileri," textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text=" Performans değerlendirme raporları" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Kişinin çalıştığı kurum" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text=" Kişinin çalıştığı kurumdaki pozisyonu" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                    <TitledPane fx:id="hukukIIslem" animated="false" text="Hukuki İşlem">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Adli makamlarla yazışmalardaki bilgiler" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Dava dosyasındaki bilgiler" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                    <TitledPane fx:id="muşteriIslem" animated="false" text="Müşteri İşlem">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox fx:id="c1521" prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Çağrı merkezi kayıtları" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Fatura" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="senet" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="çek bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Gişe dekontlarındaki bilgiler" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Sipariş bilgisi" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text=" Talep bilgisi" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Fatura" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                  <TitledPane fx:id="fizikselMekanGüvenliği" animated="false" text="Fiziksel Mekan Güvenliği">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text=" Çalışan ve ziyaretçilerin giriş çıkış kayıt bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Kamera kayıtları " textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                  </TitledPane>
+                                    <TitledPane fx:id="islemGuvenligi" animated="false" text="İşlem Güvenliği">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="IP adresi bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="İnternet sitesi giriş çıkış bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Şifre ve parola bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                    <TitledPane fx:id="riskYönetimi" animated="false" text="Risk Yönetimi">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Ticari" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="teknik" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="idari risklerin yönetilmesi için işlenen bilgiler" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                    <TitledPane fx:id="finans" animated="false" text="Finans">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Bilanço bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Finansal performans bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text=" Kredi ve risk bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Malvarlığı bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="banka hesap bilgisi" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="IBAN bilgisi" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="alacak-borç bilgisi" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="aylık fatura bilgisi" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                    <TitledPane fx:id="meslekiDeneyim" animated="false" text="Mesleki Deneyim">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Diploma bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Gidilen kurslar" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Meslek içi eğitim bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Sertifikalar" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Transkript bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                    <TitledPane fx:id="pazarlama" animated="false" text="Pazarlama">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Alışveriş geçmişi bilgileri" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Anket" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text=" Çerez kayıtları" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text=" Kampanya çalışmasıyla elde edilen bilgiler" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                    <TitledPane fx:id="görselVeIsitselKayitlar" animated="false" text="Görsel ve İşitsel Kayıtlar">
+                                       <content>
+                                          <VBox>
+                                             <children>
+                                                <JFXCheckBox prefHeight="18.0" prefWidth="726.0" style="-fx-background-color: #81c784; -fx-background-radius: 5;" text="Görsel ve İşitsel kayıtlar" textFill="#f4eae8">
+                                                   <unCheckedColor>
+                                                      <LinearGradient endX="1.0" endY="1.0">
+                                                         <stops>
+                                                            <Stop color="#ff0202" />
+                                                            <Stop color="#4c00ff" offset="1.0" />
+                                                         </stops>
+                                                      </LinearGradient>
+                                                   </unCheckedColor>
+                                                </JFXCheckBox>
+                                             </children>
+                                          </VBox>
+                                       </content>
+                                    </TitledPane>
+                                </panes>
+                              </Accordion>
+                           </children>
+                           <padding>
+                              <Insets left="5.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+                  <HBox fx:id="hBox" spacing="450.0">
+                     <children>
+                        <JFXCheckBox fx:id="diger" onAction="#diger" prefHeight="29.0" prefWidth="189.0" style="-fx-background-color: #009975; -fx-background-radius: 10;" text="Diğer ( Lutfen belirtiniz ) " unCheckedColor="RED" />
+                        <JFXButton fx:id="cikart" minWidth="51.0" onAction="#cikart" prefHeight="32.0" prefWidth="51.0" style="-fx-background-color: #009975; -fx-background-radius: 20;" text="Çıkart" visible="false">
+                           <HBox.margin>
+                              <Insets right="-425.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                        <JFXButton fx:id="ekle" minWidth="51.0" onAction="#ekle" prefHeight="32.0" prefWidth="51.0" style="-fx-background-color: #009975; -fx-background-radius: 20;" text="Ekle" visible="false" />
+                     </children>
+                  </HBox>
+                  <VBox fx:id="vBox" maxWidth="500.0" spacing="10.0" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>

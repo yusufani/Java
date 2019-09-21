@@ -17,4 +17,9 @@ public class Amac {
     public Amac(String[] islemeAmaci) {
         IslemeAmaci = islemeAmaci;
     }
+
+    @Override
+    public String toString() {
+        return "Amaclar yazdırılıyor : \n"+getIslemeAmaci()+"\n";
+    }
 }

@@ -37,4 +37,9 @@ public class Organizasyon {
     public void setBilgiGirisiYapanKisi(String bilgiGirisiYapanKisi) {
         BilgiGirisiYapanKisi = bilgiGirisiYapanKisi;
     }
+
+    @Override
+    public String toString() {
+        return "Organizasyon yazdiriliyor " + getBilgiGirisiYapanKisi() + "\n" +getDepartmanIsmi() +"\n " +getDirektorkukIsmı()+"\n";
+    }
 }

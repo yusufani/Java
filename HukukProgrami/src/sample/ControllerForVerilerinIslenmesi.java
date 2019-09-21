@@ -5,91 +5,83 @@ import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXCheckBox;
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
-import javafx.scene.control.CheckBox;
+import javafx.scene.control.TitledPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;
 
-import java.io.IOException;
 import java.net.URL;
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Optional;
 import java.util.ResourceBundle;
-import java.util.Stack;
 
-import static sample.Main.stages;
-
-public class ControllerForSurec2 implements Initializable {
+public class ControllerForVerilerinIslenmesi implements Initializable {
+    HashMap<TitledPane,String> titlePanes=new HashMap<>();
+    @FXML
+    private TitledPane kimlik;
 
     @FXML
-    private JFXCheckBox calisan;
+    private TitledPane iletisim;
 
     @FXML
-    private JFXCheckBox tedarikci;
+    private TitledPane lokasyon;
 
     @FXML
-    private JFXCheckBox urun;
+    private TitledPane ozluk;
 
     @FXML
-    private JFXCheckBox potansiyelUrun;
+    private TitledPane hukukIIslem;
 
     @FXML
-    private JFXCheckBox uye;
+    private TitledPane muşteriIslem;
 
     @FXML
-    private JFXCheckBox denek;
+    private JFXCheckBox c1521;
 
     @FXML
-    private JFXCheckBox habereKonuOlan;
+    private TitledPane fizikselMekanGüvenliği;
 
     @FXML
-    private JFXCheckBox hissedar;
+    private TitledPane islemGuvenligi;
 
     @FXML
-    private JFXCheckBox sinav;
+    private TitledPane riskYönetimi;
 
     @FXML
-    private JFXCheckBox stajyer;
+    private TitledPane finans;
 
     @FXML
-    private JFXCheckBox ziyaretci;
+    private TitledPane meslekiDeneyim;
 
     @FXML
-    private JFXCheckBox calisanAdayi;
+    private TitledPane pazarlama;
+
+    @FXML
+    private TitledPane görselVeIsitselKayitlar;
+
+    @FXML
+    private HBox hBox;
 
     @FXML
     private JFXCheckBox diger;
 
     @FXML
-    private VBox vBox;
-
-    @FXML
-    private JFXTextField gizliText;
+    private JFXButton cikart;
 
     @FXML
     private JFXButton ekle;
 
     @FXML
-    private JFXButton cikart;
+    private VBox vBox;
 
-    @FXML
-    private HBox hBox;
-
-    ArrayList<JFXTextField> gizliTextler;
-    ArrayList<JFXCheckBox> checkBoxes=new ArrayList<>();
     @FXML
     void devam(ActionEvent e) {
         secimleriAl();
-        if(Envanter.getInstance().getSurec().getKisiselVerisiIslenenKisi() == null ){
+        if(Envanter.getInstance().getAmac().getIslemeAmaci() == null ){
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
             alert.setTitle("Uyarı"); //Alert e başlık verilmesi
             alert.setHeight(100); //Alert in genişlik ve yüksekliğinin belirlenmesi
@@ -102,9 +94,8 @@ public class ControllerForSurec2 implements Initializable {
             Optional<ButtonType> result = alert.showAndWait();
             if(result.get()== no)return;
         }
-        System.out.println(Envanter.getInstance().getSurec().toString());
-        Switch.changeStage("Surec3",900,600,ekle);
-
+        System.out.println(Envanter.getInstance().getAmac().toString());
+        Switch.changeStage("OzelVerilerinIslenmesi",900,600,ekle);
     }
 
     @FXML
@@ -118,7 +109,6 @@ public class ControllerForSurec2 implements Initializable {
                 jfxTextField.setStyle("-fx-background-color:  #009975; -fx-background-radius:  10;-fx-text-fill: white;");
                 vBox.getChildren().add(jfxTextField);
             }
-
             ekle.setVisible(true);
         }
         if(!diger.isSelected()){
@@ -149,33 +139,38 @@ public class ControllerForSurec2 implements Initializable {
 
     @FXML
     void geri(ActionEvent event) {
-        Switch.changeStage("Surec",800,600,cikart);
+        Switch.changeStage("Surec3",800,600,cikart);
     }
+
     public void secimleriAl(){
-        ArrayList<String> secimler =new ArrayList<>();
-        for(JFXCheckBox x : checkBoxes){
-            if(x.isSelected()) secimler.add(x.getText());
+        HashMap<String ,String> secimler =new HashMap<>();
+        for(TitledPane x : titlePanes.keySet()){
+            for( Node y : (((VBox) x.getContent()).getChildren())){
+                if(((JFXCheckBox) y).isSelected()){
+                    secimler.put(((JFXCheckBox) y).getText(),x.getText());
+                }
+            }
         }
         for(int i = 0 ; i< vBox.getChildren().size(); i++){
-            secimler.add(((JFXTextField)vBox.getChildren().get(i)).getText());
+            secimler.put(((JFXTextField)vBox.getChildren().get(i)).getText(),"Diğer");
         }
         System.out.println(secimler);
-        Envanter.getInstance().getSurec().setKisiselVerisiIslenenKisi(secimler.toArray(new String[0]));
+        Envanter.getInstance().getIslenenVeriler().setIslenenVeriler(secimler);
     }
 
     @Override
-    public void initialize(URL location, ResourceBundle resources) {
-        checkBoxes.add(calisan);
-        checkBoxes.add(tedarikci);
-        checkBoxes.add(urun);
-        checkBoxes.add(potansiyelUrun);
-        checkBoxes.add(uye);
-        checkBoxes.add(denek);
-        checkBoxes.add(habereKonuOlan);
-        checkBoxes.add(hissedar);
-        checkBoxes.add(sinav);
-        checkBoxes.add(stajyer);
-        checkBoxes.add(ziyaretci);
-        checkBoxes.add(calisanAdayi);
+    public void initialize(URL location, ResourceBundle resources) { titlePanes.put(kimlik,kimlik.getText());
+       titlePanes.put(iletisim,iletisim.getText());
+       titlePanes.put(lokasyon,lokasyon.getText());
+       titlePanes.put(ozluk,ozluk.getText());
+       titlePanes.put(hukukIIslem,hukukIIslem.getText());
+       titlePanes.put(muşteriIslem,muşteriIslem.getText());
+       titlePanes.put(fizikselMekanGüvenliği,fizikselMekanGüvenliği.getText());
+       titlePanes.put(islemGuvenligi,islemGuvenligi.getText());
+       titlePanes.put(riskYönetimi,riskYönetimi.getText());
+       titlePanes.put(finans,finans.getText());
+       titlePanes.put(meslekiDeneyim,meslekiDeneyim.getText());
+       titlePanes.put(pazarlama,pazarlama.getText());
+       titlePanes.put(görselVeIsitselKayitlar,görselVeIsitselKayitlar.getText());
     }
 }

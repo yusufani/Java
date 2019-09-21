@@ -31,6 +31,10 @@ public class Main extends Application {
     public void linkedListDoldur(){
         stages.put("Surec",createStage("Surec.fxml"));
         stages.put("Surec2",createStage("Surec2.fxml"));
+        stages.put("Surec3",createStage("Surec3.fxml"));
+        stages.put("Amac",createStage("Amac.fxml"));
+        stages.put("VerilerinIslenmesi",createStage("VerilerinIslenmesi.fxml"));
+        stages.put("OzelVerilerinIslenmesi",createStage("OzelVerilerinIslenmesi.fxml"));
 
     }
     public Stage createStage(String fxmlName ){

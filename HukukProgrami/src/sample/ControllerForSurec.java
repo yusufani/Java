@@ -25,7 +25,7 @@ public class ControllerForSurec implements Initializable {
     void devam( ) {
         Envanter.getInstance().getSurec().setIsSureci(isSureci.getText());
         Envanter.getInstance().getSurec().setVeriIsletmeFaaliyetininAciklanmasi(veriIslemeFaaliyetininAciklanmasi.getText());
-        if(Envanter.getInstance().getSurec().equals("") || Envanter.getInstance().getSurec().getVeriIsletmeFaaliyetininAciklanmasi().equals("")){
+        if(Envanter.getInstance().getSurec().getIsSureci().equals("") || Envanter.getInstance().getSurec().getVeriIsletmeFaaliyetininAciklanmasi().equals("")){
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
             alert.setTitle("Uyarı"); //Alert e başlık verilmesi
                 alert.setHeight(100); //Alert in genişlik ve yüksekliğinin belirlenmesi
@@ -38,6 +38,7 @@ public class ControllerForSurec implements Initializable {
                 Optional<ButtonType> result = alert.showAndWait();
                 if(result.get()== no)return;
         }
+        System.out.println(Envanter.getInstance().getSurec().toString());
         Switch.changeStage("Surec2",900,   700,isSureci);
 
     }

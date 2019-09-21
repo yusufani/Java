@@ -45,4 +45,21 @@ public class Surec {
     public void setKisiselVerininToplanmaYontemi(String[] kisiselVerininToplanmaYontemi) {
         this.kisiselVerininToplanmaYontemi = kisiselVerininToplanmaYontemi;
     }
+
+    @Override
+    public String toString() {
+        String veri =  "Surec yazdiriliyor \n "  + getIsSureci() + "\n" + getVeriIsletmeFaaliyetininAciklanmasi() +" \n ";
+        if(getKisiselVerisiIslenenKisi() != null){
+            for (String x : getKisiselVerisiIslenenKisi()){
+                veri+=x+" ";
+            }
+            veri+="\n";
+        }
+        if(getKisiselVerininToplanmaYontemi()!=null){
+            for (String x : getKisiselVerininToplanmaYontemi()){
+                veri+=x+" ";
+            }
+        }
+        return veri+"\n";
+    }
 }

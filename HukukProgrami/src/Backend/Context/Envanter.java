@@ -15,6 +15,7 @@ public class Envanter {
     private VeriMaskeleme veriMaskeleme;
     private Yedekleme yedekleme;
     private VeriSaklamaVeGuvenlik veriSaklamaVeGuvenlik;
+    private OzelVerilerinIslenmesi ozelVerilerinIslenmesi;
     private int satirSayisi =1;
     private static Envanter envanter=null;
     public static Envanter getInstance() {
@@ -23,6 +24,15 @@ public class Envanter {
         }
         return envanter;
     }
+
+    public OzelVerilerinIslenmesi getOzelVerilerinIslenmesi() {
+        return ozelVerilerinIslenmesi;
+    }
+
+    public void setOzelVerilerinIslenmesi(OzelVerilerinIslenmesi ozelVerilerinIslenmesi) {
+        this.ozelVerilerinIslenmesi = ozelVerilerinIslenmesi;
+    }
+
     public Envanter() {
         amac = new Amac();
         islenenVeriler = new IslenenVeriler();
@@ -36,7 +46,7 @@ public class Envanter {
         veriMaskeleme = new VeriMaskeleme();
         yedekleme = new Yedekleme();
         veriSaklamaVeGuvenlik = new VeriSaklamaVeGuvenlik();
-
+        ozelVerilerinIslenmesi=new OzelVerilerinIslenmesi();
 
     }
 public  void setSatirSayisi ( int deger ){
